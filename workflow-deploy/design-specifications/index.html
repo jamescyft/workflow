@@ -1,0 +1,190 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>Design Specifications - FocusLoop</title><meta name="description" content="Detailed design specifications for FocusLoop following Apple&#x27;s design guidelines"/><link rel="icon" href="/favicon.ico"/><meta name="next-head-count" content="5"/><link rel="preload" href="/workflow/_next/static/css/59c14d0358d81152.css" as="style" crossorigin=""/><link rel="stylesheet" href="/workflow/_next/static/css/59c14d0358d81152.css" crossorigin="" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/workflow/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/workflow/_next/static/chunks/webpack-21c192da1d04f0f8.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/framework-6d18543c2c368b0c.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/main-ebf2c960bcd1cb49.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/pages/_app-bc524e657a368b21.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/996-f63e9faf058fa8be.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/273-838cee13f1a176d1.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/434-ba182c834d6645aa.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/chunks/pages/design-specifications-e5bee119426fffae.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/jDhNkSfWXq5J7mSQlQS1w/_buildManifest.js" defer="" crossorigin=""></script><script src="/workflow/_next/static/jDhNkSfWXq5J7mSQlQS1w/_ssgManifest.js" defer="" crossorigin=""></script></head><body><div id="__next"><div class="layout"><div class="sidebar "><div class="sidebar-header"><div class="logo"><a href="/workflow/"><span class="logo-text">FocusLoop</span></a></div><button class="close-button" aria-label="Close menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div><nav class="sidebar-nav"><div class="nav-section"><h3 class="nav-section-title">Strategy Documents</h3><ul class="nav-list"><li><a href="/workflow/strategy/"><span class="nav-link">Enhancement Strategy</span></a></li><li><a href="/workflow/prototype-analysis/"><span class="nav-link">Prototype Analysis</span></a></li><li><a href="/workflow/ai-approaches/"><span class="nav-link">Advanced AI Approaches</span></a></li><li><a href="/workflow/design-specifications/"><span class="nav-link">Design Specifications</span></a></li><li><a href="/workflow/implementation-plan/"><span class="nav-link">Implementation Plan</span></a></li><li><a href="/workflow/wow-experience/"><span class="nav-link">Wow Experience</span></a></li></ul></div><div class="nav-section"><h3 class="nav-section-title">Enhancement Pillars</h3><ul class="nav-list"><li><a href="/workflow/strategy/#intelligent-task-management"><span class="nav-link">Intelligent Task Management</span></a></li><li><a href="/workflow/strategy/#premium-design"><span class="nav-link">Premium Design Language</span></a></li><li><a href="/workflow/strategy/#adaptive-experience"><span class="nav-link">Adaptive User Experience</span></a></li><li><a href="/workflow/strategy/#engagement-delight"><span class="nav-link">Engagement and Delight</span></a></li></ul></div><div class="nav-section"><h3 class="nav-section-title">Implementation</h3><ul class="nav-list"><li><a href="/workflow/strategy/#implementation-roadmap"><span class="nav-link">Implementation Roadmap</span></a></li><li><a href="/workflow/strategy/#technical-architecture"><span class="nav-link">Technical Architecture</span></a></li><li><a href="/workflow/strategy/#success-metrics"><span class="nav-link">Success Metrics</span></a></li></ul></div></nav></div><div class="main-content"><header class="header"><button class="menu-button" aria-label="Toggle menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button><div class="logo"><a href="/workflow/"><span class="logo-text">FocusLoop</span></a></div><nav class="desktop-nav"><a href="/workflow/strategy/"><span class="nav-link">Strategy</span></a><a href="/workflow/prototype-analysis/"><span class="nav-link">Analysis</span></a><a href="/workflow/ai-approaches/"><span class="nav-link">AI Approaches</span></a><a href="/workflow/design-specifications/"><span class="nav-link">Design</span></a></nav></header><div class="container fade-in"><div class="document-layout"><aside class="document-sidebar"><div class="toc-container"></div><div class="theme-toggle-container"><button class="theme-toggle light" aria-label="Switch to dark mode"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></aside><div class="document-content card"><h1>Enhanced Design Specifications for FocusLoop</h1>
+<h2>Design Philosophy</h2>
+<p>The enhanced FocusLoop design will embody Apple&#x27;s design principles while creating a distinctive, premium experience specifically tailored for executives with ADHD. The design will focus on:</p>
+<ol>
+<li><strong>Clarity</strong>: Distraction-free interfaces with purposeful visual elements</li>
+<li><strong>Deference</strong>: Content-first approach where the interface recedes to highlight tasks</li>
+<li><strong>Depth</strong>: Thoughtful use of layers, animations, and transitions to create a sense of space</li>
+</ol>
+<h2>Color System</h2>
+<h3>Primary Mode Colors</h3>
+<ul>
+<li><strong>Planner Mode</strong>: Gradient from #34C759 (Apple green) to #30B350, with subtle variations for depth</li>
+<li><strong>Execution Mode</strong>: Gradient from #FF3B30 (Apple red) to #E53730, with intensity shifts for focus states</li>
+<li><strong>Review Mode</strong>: Gradient from #AF52DE (Apple purple) to #9F4ACA, with tints for data visualization</li>
+</ul>
+<h3>Supporting Colors</h3>
+<ul>
+<li><strong>Neutral Palette</strong>: System grays (6 levels) for text, backgrounds, and UI elements</li>
+<li><strong>Accent Colors</strong>: System blue (#007AFF) for interactive elements</li>
+<li><strong>Success/Error States</strong>: System green/red for feedback</li>
+<li><strong>Dark Mode Variants</strong>: Automatically adjusted color values for dark mode</li>
+</ul>
+<h2>Typography</h2>
+<h3>Font System</h3>
+<ul>
+<li><strong>Primary Font</strong>: SF Pro Display and SF Pro Text</li>
+<li><strong>Headings</strong>: SF Pro Display Medium/Bold with -0.5px tracking</li>
+<li><strong>Body Text</strong>: SF Pro Text Regular with 0px tracking</li>
+<li><strong>UI Elements</strong>: SF Pro Text Medium with appropriate optical sizing</li>
+<li><strong>Dynamic Type Support</strong>: All text scales appropriately with system text size settings</li>
+</ul>
+<h3>Text Hierarchy</h3>
+<ul>
+<li><strong>Primary Headings</strong>: 24pt SF Pro Display Bold</li>
+<li><strong>Secondary Headings</strong>: 20pt SF Pro Display Medium</li>
+<li><strong>Tertiary Headings</strong>: 17pt SF Pro Display Medium</li>
+<li><strong>Body Text</strong>: 17pt SF Pro Text Regular</li>
+<li><strong>Secondary Text</strong>: 15pt SF Pro Text Regular</li>
+<li><strong>Caption Text</strong>: 13pt SF Pro Text Regular</li>
+<li><strong>Leading (Line Height)</strong>: 1.3× font size for optimal readability</li>
+</ul>
+<h2>Layout System</h2>
+<h3>Grid System</h3>
+<ul>
+<li><strong>Base Unit</strong>: 8px grid for all spacing and layout decisions</li>
+<li><strong>Margins</strong>: 16px standard screen edge margin, 24px on larger displays</li>
+<li><strong>Padding</strong>: 16px standard internal padding</li>
+<li><strong>Card Spacing</strong>: 16px between cards, 24px between sections</li>
+</ul>
+<h3>Component Spacing</h3>
+<ul>
+<li><strong>Vertical Rhythm</strong>: 8px, 16px, 24px, and 32px spacing options</li>
+<li><strong>Element Grouping</strong>: Related elements spaced at 8px, groups at 16px or 24px</li>
+<li><strong>Content Density</strong>: Optimized for information display while maintaining breathing room</li>
+</ul>
+<h3>Responsive Behavior</h3>
+<ul>
+<li><strong>Breakpoints</strong>: Small (320-375px), Medium (376-744px), Large (745px+)</li>
+<li><strong>Layout Adaptation</strong>: Single column on small, two columns on medium, multi-column on large</li>
+<li><strong>Component Scaling</strong>: Key UI elements scale proportionally across breakpoints</li>
+</ul>
+<h2>Component Design</h2>
+<h3>Cards</h3>
+<ul>
+<li><strong>Corner Radius</strong>: 12px for all cards</li>
+<li><strong>Shadow</strong>: Subtle layered shadows (y-offset: 2px, blur: 8px, opacity: 8%)</li>
+<li><strong>Border</strong>: 0.5px stroke in system gray for light mode, darker gray for dark mode</li>
+<li><strong>Internal Padding</strong>: 16px standard, 20px for featured cards</li>
+<li><strong>States</strong>: Rest, Hover, Active, and Selected states with appropriate visual feedback</li>
+</ul>
+<h3>Buttons</h3>
+<ul>
+<li><strong>Primary Buttons</strong>: Pill-shaped (fully rounded ends), filled with mode color</li>
+<li><strong>Secondary Buttons</strong>: Pill-shaped with stroke and mode color text</li>
+<li><strong>Tertiary Buttons</strong>: Text-only with mode color</li>
+<li><strong>Icon Buttons</strong>: Circular with 40px diameter for touch targets</li>
+<li><strong>States</strong>: Rest, Hover, Active, and Disabled with appropriate visual feedback</li>
+<li><strong>Padding</strong>: 16px horizontal, 12px vertical for comfortable touch targets</li>
+</ul>
+<h3>Input Fields</h3>
+<ul>
+<li><strong>Text Fields</strong>: Rounded rectangle (8px radius) with subtle background</li>
+<li><strong>Focus State</strong>: Highlighted border in mode color when active</li>
+<li><strong>Error State</strong>: System red border with error message</li>
+<li><strong>Placeholder Text</strong>: System gray, 70% opacity</li>
+<li><strong>Input Text</strong>: System black/white with 100% opacity</li>
+</ul>
+<h3>Navigation</h3>
+<ul>
+<li><strong>Tab Bar</strong>: Custom designed with mode-specific indicators</li>
+<li><strong>Selection Indicator</strong>: Animated pill that slides between tabs</li>
+<li><strong>Icons</strong>: SF Symbols with weight matching adjacent text</li>
+<li><strong>Active State</strong>: Mode color for active tab, system gray for inactive</li>
+</ul>
+<h2>Animation and Motion</h2>
+<h3>Micro-interactions</h3>
+<ul>
+<li><strong>Button Feedback</strong>: Subtle scale (95%) and color shift on press</li>
+<li><strong>Input Focus</strong>: Smooth border transition when field is activated</li>
+<li><strong>Toggle States</strong>: Elegant transitions between on/off states</li>
+<li><strong>Loading States</strong>: Custom spinner using mode colors</li>
+</ul>
+<h3>Transitions</h3>
+<ul>
+<li><strong>Mode Switching</strong>: Smooth cross-fade with coordinated color transitions (0.3s duration)</li>
+<li><strong>Card Expansion</strong>: Natural spring physics when expanding task details</li>
+<li><strong>List Animations</strong>: Staggered fade-in for task lists (0.05s delay between items)</li>
+<li><strong>Progress Indicators</strong>: Continuous motion for timers and progress bars</li>
+</ul>
+<h3>Custom Animations</h3>
+<ul>
+<li><strong>Task Completion</strong>: Satisfying checkmark animation with particle effects</li>
+<li><strong>Timer Visualization</strong>: Breathing animation that subtly pulses during focus sessions</li>
+<li><strong>Achievement Moments</strong>: Celebratory animations for completed tasks and milestones</li>
+</ul>
+<h2>Enhanced UI Components</h2>
+<h3>AI Interview Interface</h3>
+<ul>
+<li><strong>Conversational UI</strong>: Chat-like interface with clear question/answer pairing</li>
+<li><strong>Progressive Disclosure</strong>: Questions appear one at a time with smooth transitions</li>
+<li><strong>Context Awareness</strong>: Visual indicators showing how current question relates to previous answers</li>
+<li><strong>Input Methods</strong>: Support for text, voice, and quick-select options</li>
+<li><strong>Thinking States</strong>: Elegant loading animations during AI processing</li>
+</ul>
+<h3>Task Breakdown Visualization</h3>
+<ul>
+<li><strong>Hierarchical Display</strong>: Parent-child relationships clearly visualized</li>
+<li><strong>Time Allocation</strong>: Visual representation of estimated time for each subtask</li>
+<li><strong>Dependencies</strong>: Subtle connecting lines showing task relationships</li>
+<li><strong>Confidence Indicators</strong>: Visual representation of AI confidence in time estimates</li>
+<li><strong>Drag-and-Drop Reordering</strong>: Fluid interaction for rearranging tasks</li>
+</ul>
+<h3>Focus Timer</h3>
+<ul>
+<li><strong>Immersive Mode</strong>: Full-screen timer with minimal distractions</li>
+<li><strong>Progress Visualization</strong>: Circular progress indicator with subtle animation</li>
+<li><strong>Time Remaining</strong>: Large, clear typography showing remaining time</li>
+<li><strong>Break Indicators</strong>: Visual cues for upcoming breaks</li>
+<li><strong>Distraction Blocking</strong>: Elegant UI for enabling focus mode</li>
+</ul>
+<h3>Performance Analytics</h3>
+<ul>
+<li><strong>Data Visualization</strong>: Custom charts and graphs using Apple&#x27;s design language</li>
+<li><strong>Comparative Views</strong>: Before/after visualizations of performance improvements</li>
+<li><strong>Trend Indicators</strong>: Subtle arrows and colors showing positive/negative trends</li>
+<li><strong>Insight Cards</strong>: Beautifully designed cards highlighting key insights</li>
+<li><strong>Interactive Elements</strong>: Touch-responsive charts that reveal additional details</li>
+</ul>
+<h2>Mode-Specific Enhancements</h2>
+<h3>Planner Mode (Green)</h3>
+<ul>
+<li><strong>Task Input Flow</strong>: Redesigned with conversational AI interface</li>
+<li><strong>Smart Suggestions</strong>: Elegantly presented AI task recommendations</li>
+<li><strong>Time Blocking</strong>: Visual calendar interface for scheduling tasks</li>
+<li><strong>Priority Visualization</strong>: Clear visual hierarchy for task importance</li>
+<li><strong>Context Tagging</strong>: Simple system for categorizing tasks by context</li>
+</ul>
+<h3>Execution Mode (Red)</h3>
+<ul>
+<li><strong>Distraction-Free Focus</strong>: Immersive interface that eliminates unnecessary elements</li>
+<li><strong>Real-Time Progress</strong>: Subtle indicators showing progress against estimates</li>
+<li><strong>Mind Dump Feature</strong>: Elegant interface for capturing stray thoughts</li>
+<li><strong>Focus Aids</strong>: Optional background sounds and visual cues for maintaining focus</li>
+<li><strong>Break Timer</strong>: Well-designed break reminder system</li>
+</ul>
+<h3>Review Mode (Purple)</h3>
+<ul>
+<li><strong>Performance Dashboard</strong>: Beautifully visualized performance metrics</li>
+<li><strong>Insight Generation</strong>: AI-generated insights presented in elegant cards</li>
+<li><strong>Trend Analysis</strong>: Sophisticated but clear visualization of performance trends</li>
+<li><strong>Achievement Tracking</strong>: Visual celebration of accomplishments</li>
+<li><strong>Improvement Suggestions</strong>: Tactfully presented recommendations</li>
+</ul>
+<h2>Accessibility Enhancements</h2>
+<ul>
+<li><strong>Color Contrast</strong>: All text meets WCAG AA standards (4.5:1 for normal text, 3:1 for large text)</li>
+<li><strong>Dynamic Type</strong>: All text scales appropriately with system settings</li>
+<li><strong>VoiceOver Support</strong>: Properly labeled elements for screen reader compatibility</li>
+<li><strong>Reduced Motion</strong>: Alternative animations for users with motion sensitivity</li>
+<li><strong>Keyboard Navigation</strong>: Complete keyboard control for desktop use</li>
+</ul>
+<h2>Design System Implementation</h2>
+<ul>
+<li><strong>Component Library</strong>: Comprehensive library of reusable components</li>
+<li><strong>Design Tokens</strong>: Centralized color, typography, and spacing variables</li>
+<li><strong>Dark Mode Support</strong>: Complete dark mode implementation</li>
+<li><strong>Responsive Rules</strong>: Clear guidelines for adaptation across screen sizes</li>
+<li><strong>Animation Library</strong>: Reusable animation patterns and timing functions</li>
+</ul>
+<p>This enhanced design specification addresses the limitations of the current prototype while incorporating advanced AI capabilities into a cohesive, premium user experience that follows Apple&#x27;s design principles while creating a unique identity for FocusLoop.</p></div></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{"content":"# Enhanced Design Specifications for FocusLoop\n\n## Design Philosophy\n\nThe enhanced FocusLoop design will embody Apple's design principles while creating a distinctive, premium experience specifically tailored for executives with ADHD. The design will focus on:\n\n1. **Clarity**: Distraction-free interfaces with purposeful visual elements\n2. **Deference**: Content-first approach where the interface recedes to highlight tasks\n3. **Depth**: Thoughtful use of layers, animations, and transitions to create a sense of space\n\n## Color System\n\n### Primary Mode Colors\n- **Planner Mode**: Gradient from #34C759 (Apple green) to #30B350, with subtle variations for depth\n- **Execution Mode**: Gradient from #FF3B30 (Apple red) to #E53730, with intensity shifts for focus states\n- **Review Mode**: Gradient from #AF52DE (Apple purple) to #9F4ACA, with tints for data visualization\n\n### Supporting Colors\n- **Neutral Palette**: System grays (6 levels) for text, backgrounds, and UI elements\n- **Accent Colors**: System blue (#007AFF) for interactive elements\n- **Success/Error States**: System green/red for feedback\n- **Dark Mode Variants**: Automatically adjusted color values for dark mode\n\n## Typography\n\n### Font System\n- **Primary Font**: SF Pro Display and SF Pro Text\n- **Headings**: SF Pro Display Medium/Bold with -0.5px tracking\n- **Body Text**: SF Pro Text Regular with 0px tracking\n- **UI Elements**: SF Pro Text Medium with appropriate optical sizing\n- **Dynamic Type Support**: All text scales appropriately with system text size settings\n\n### Text Hierarchy\n- **Primary Headings**: 24pt SF Pro Display Bold\n- **Secondary Headings**: 20pt SF Pro Display Medium\n- **Tertiary Headings**: 17pt SF Pro Display Medium\n- **Body Text**: 17pt SF Pro Text Regular\n- **Secondary Text**: 15pt SF Pro Text Regular\n- **Caption Text**: 13pt SF Pro Text Regular\n- **Leading (Line Height)**: 1.3× font size for optimal readability\n\n## Layout System\n\n### Grid System\n- **Base Unit**: 8px grid for all spacing and layout decisions\n- **Margins**: 16px standard screen edge margin, 24px on larger displays\n- **Padding**: 16px standard internal padding\n- **Card Spacing**: 16px between cards, 24px between sections\n\n### Component Spacing\n- **Vertical Rhythm**: 8px, 16px, 24px, and 32px spacing options\n- **Element Grouping**: Related elements spaced at 8px, groups at 16px or 24px\n- **Content Density**: Optimized for information display while maintaining breathing room\n\n### Responsive Behavior\n- **Breakpoints**: Small (320-375px), Medium (376-744px), Large (745px+)\n- **Layout Adaptation**: Single column on small, two columns on medium, multi-column on large\n- **Component Scaling**: Key UI elements scale proportionally across breakpoints\n\n## Component Design\n\n### Cards\n- **Corner Radius**: 12px for all cards\n- **Shadow**: Subtle layered shadows (y-offset: 2px, blur: 8px, opacity: 8%)\n- **Border**: 0.5px stroke in system gray for light mode, darker gray for dark mode\n- **Internal Padding**: 16px standard, 20px for featured cards\n- **States**: Rest, Hover, Active, and Selected states with appropriate visual feedback\n\n### Buttons\n- **Primary Buttons**: Pill-shaped (fully rounded ends), filled with mode color\n- **Secondary Buttons**: Pill-shaped with stroke and mode color text\n- **Tertiary Buttons**: Text-only with mode color\n- **Icon Buttons**: Circular with 40px diameter for touch targets\n- **States**: Rest, Hover, Active, and Disabled with appropriate visual feedback\n- **Padding**: 16px horizontal, 12px vertical for comfortable touch targets\n\n### Input Fields\n- **Text Fields**: Rounded rectangle (8px radius) with subtle background\n- **Focus State**: Highlighted border in mode color when active\n- **Error State**: System red border with error message\n- **Placeholder Text**: System gray, 70% opacity\n- **Input Text**: System black/white with 100% opacity\n\n### Navigation\n- **Tab Bar**: Custom designed with mode-specific indicators\n- **Selection Indicator**: Animated pill that slides between tabs\n- **Icons**: SF Symbols with weight matching adjacent text\n- **Active State**: Mode color for active tab, system gray for inactive\n\n## Animation and Motion\n\n### Micro-interactions\n- **Button Feedback**: Subtle scale (95%) and color shift on press\n- **Input Focus**: Smooth border transition when field is activated\n- **Toggle States**: Elegant transitions between on/off states\n- **Loading States**: Custom spinner using mode colors\n\n### Transitions\n- **Mode Switching**: Smooth cross-fade with coordinated color transitions (0.3s duration)\n- **Card Expansion**: Natural spring physics when expanding task details\n- **List Animations**: Staggered fade-in for task lists (0.05s delay between items)\n- **Progress Indicators**: Continuous motion for timers and progress bars\n\n### Custom Animations\n- **Task Completion**: Satisfying checkmark animation with particle effects\n- **Timer Visualization**: Breathing animation that subtly pulses during focus sessions\n- **Achievement Moments**: Celebratory animations for completed tasks and milestones\n\n## Enhanced UI Components\n\n### AI Interview Interface\n- **Conversational UI**: Chat-like interface with clear question/answer pairing\n- **Progressive Disclosure**: Questions appear one at a time with smooth transitions\n- **Context Awareness**: Visual indicators showing how current question relates to previous answers\n- **Input Methods**: Support for text, voice, and quick-select options\n- **Thinking States**: Elegant loading animations during AI processing\n\n### Task Breakdown Visualization\n- **Hierarchical Display**: Parent-child relationships clearly visualized\n- **Time Allocation**: Visual representation of estimated time for each subtask\n- **Dependencies**: Subtle connecting lines showing task relationships\n- **Confidence Indicators**: Visual representation of AI confidence in time estimates\n- **Drag-and-Drop Reordering**: Fluid interaction for rearranging tasks\n\n### Focus Timer\n- **Immersive Mode**: Full-screen timer with minimal distractions\n- **Progress Visualization**: Circular progress indicator with subtle animation\n- **Time Remaining**: Large, clear typography showing remaining time\n- **Break Indicators**: Visual cues for upcoming breaks\n- **Distraction Blocking**: Elegant UI for enabling focus mode\n\n### Performance Analytics\n- **Data Visualization**: Custom charts and graphs using Apple's design language\n- **Comparative Views**: Before/after visualizations of performance improvements\n- **Trend Indicators**: Subtle arrows and colors showing positive/negative trends\n- **Insight Cards**: Beautifully designed cards highlighting key insights\n- **Interactive Elements**: Touch-responsive charts that reveal additional details\n\n## Mode-Specific Enhancements\n\n### Planner Mode (Green)\n- **Task Input Flow**: Redesigned with conversational AI interface\n- **Smart Suggestions**: Elegantly presented AI task recommendations\n- **Time Blocking**: Visual calendar interface for scheduling tasks\n- **Priority Visualization**: Clear visual hierarchy for task importance\n- **Context Tagging**: Simple system for categorizing tasks by context\n\n### Execution Mode (Red)\n- **Distraction-Free Focus**: Immersive interface that eliminates unnecessary elements\n- **Real-Time Progress**: Subtle indicators showing progress against estimates\n- **Mind Dump Feature**: Elegant interface for capturing stray thoughts\n- **Focus Aids**: Optional background sounds and visual cues for maintaining focus\n- **Break Timer**: Well-designed break reminder system\n\n### Review Mode (Purple)\n- **Performance Dashboard**: Beautifully visualized performance metrics\n- **Insight Generation**: AI-generated insights presented in elegant cards\n- **Trend Analysis**: Sophisticated but clear visualization of performance trends\n- **Achievement Tracking**: Visual celebration of accomplishments\n- **Improvement Suggestions**: Tactfully presented recommendations\n\n## Accessibility Enhancements\n\n- **Color Contrast**: All text meets WCAG AA standards (4.5:1 for normal text, 3:1 for large text)\n- **Dynamic Type**: All text scales appropriately with system settings\n- **VoiceOver Support**: Properly labeled elements for screen reader compatibility\n- **Reduced Motion**: Alternative animations for users with motion sensitivity\n- **Keyboard Navigation**: Complete keyboard control for desktop use\n\n## Design System Implementation\n\n- **Component Library**: Comprehensive library of reusable components\n- **Design Tokens**: Centralized color, typography, and spacing variables\n- **Dark Mode Support**: Complete dark mode implementation\n- **Responsive Rules**: Clear guidelines for adaptation across screen sizes\n- **Animation Library**: Reusable animation patterns and timing functions\n\nThis enhanced design specification addresses the limitations of the current prototype while incorporating advanced AI capabilities into a cohesive, premium user experience that follows Apple's design principles while creating a unique identity for FocusLoop.\n"},"__N_SSG":true},"page":"/design-specifications","query":{},"buildId":"jDhNkSfWXq5J7mSQlQS1w","assetPrefix":"/workflow","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>
